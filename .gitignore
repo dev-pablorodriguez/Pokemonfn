@@ -141,6 +141,11 @@ DocProject/Help/html
 # Click-Once directory
 publish/
 
+# Publish profiles
+Properties/PublishProfiles/
+Properties/ServiceDependencies/
+serviceDependencies.*
+
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
