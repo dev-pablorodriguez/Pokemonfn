@@ -9,7 +9,7 @@ namespace Pokemonfn
     public class Pokemonfn
     {
         [Function("Pokemonfn")]
-        [CosmosDBOutput("az204", "pokemon", Connection = "CosmosDbConnection")]
+        [CosmosDBOutput("prmlearning", "pokemon", Connection = "CosmosDbConnection")]
         public static Pokemon Run(
             [QueueTrigger("pokemon", Connection = "AzureWebJobsStorage")] QueueMessage msg,
             FunctionContext ctx
